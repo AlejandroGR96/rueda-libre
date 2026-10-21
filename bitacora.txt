@@ -1,0 +1,16 @@
+---------- PROTOCOLOS -------------
+
+URL -> http//127.0.0.1:5500/favicon.ico 
+Protocolo ->
+Host = 
+Puerto de Ruta =
+Metodo -> GET 
+Codigo de estado = 404
+
+----------- ROLES -----------------
+
+HTML: Se encarga de mostrar en el navegador los datos que tiene la pagina
+
+CSS: Se encarga de darle diseño a la pagina con estilos, colores, tipos de letras entre otros
+
+Javascript: Esta encargado de los eventos que ocurren al pulsar ciertos botones.
