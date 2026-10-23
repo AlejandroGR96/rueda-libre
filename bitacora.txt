@@ -5,7 +5,7 @@ Protocolo ->
 Host = 
 Puerto de Ruta =
 Metodo -> GET 
-Codigo de estado = 404
+Codigo de estado = Error 404
 
 ----------- ROLES -----------------
 
@@ -14,3 +14,17 @@ HTML: Se encarga de mostrar en el navegador los datos que tiene la pagina
 CSS: Se encarga de darle diseño a la pagina con estilos, colores, tipos de letras entre otros
 
 Javascript: Esta encargado de los eventos que ocurren al pulsar ciertos botones.
+
+
+Tabla de rutas
+---------------------
+rueda-libre
+img/
+    -image1.jpeg
+    -logo.jpeg
+paginas/
+    -reservas.html 
+    -tarifas.html
+bitcora.txt
+index.html
+

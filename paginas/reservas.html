@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+</head>
+<body>
+    <header>
+        <nav style="text-align: center; background-color: rgba(190, 187, 187, 0.671);">
+            <a href="../index.html">Inicio ||  </a>
+            <a href="/paginas/tarifas.html">Tarifas y Rutas||  </a>
+            <a href="/paginas/reservas.html">Reservas  ||  </a>
+        </nav>
+        <center><h1>Formulario de Reservas</h1>
+        <img src="/img/logo.jpeg" alt="Logo Rueda libre" width="500" height="300"></center>
+    </header>
+
+    <main>
+        <p><h2><center>Rellena el siguiente formularios para poder reservar un bicicleta</center></h2></p>
+        <form action="#" method="post">
+            <fieldset>
+                <legend><strong>Datos Personales</strong></legend>
+                <p>
+                    <label for="name">Nombre Completo: </label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="document">Documento:</label>
+                    <input type="checkbox" id="cc" name="cc">C.C
+                    <input type="checkbox" id="ti" name="ti">T.I
+                    <input type="text" id="document" name="document" pattern="[0-9]{10}" required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="tel">Telefono: </label>
+                    <input type="text" id="tel" name="tel" required>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend><strong>Alquiler</strong></legend>
+                <p>
+                    <label for="years">Fecha Reserva:</label>
+                    <input type="date" name="years" id="years" required>
+                </p>
+
+                <p>
+                    <label for="bicicleta">Tipo de bicicleta:</label>
+                    <select name="select" required>
+                        <option value="">Seleccione una opcion</option>
+                        <option value="1">Urbana</option>
+                        <option value="2">Montaña</option>
+                        <option value="3">Elctrica</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="trayecto">Tipo de plan: </label>
+                    <select name="selectTray" required>
+                        <option value="1">Seleccione una opcion</option>
+                        <option value="2">Rios y parques</option>
+                        <option value="3">Sabores de barrio<</option>
+                        <option value="4">Reto las palmas</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="cantB">Cantidad bicicletas: </label>
+                    <input type="text" id="cantB" name="cantB" required pattern="[1-6]">
+                </p>
+                
+                <p>
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea name="comentarios" id="comentarios" rows="4"></textarea>
+                </p>
+
+                <p>
+                    <label form="politicas">Acepta las politicas de Alquiler:</label>
+                    <input type="checkbox" id="si" name="si">Aceptar
+                    <input type="checkbox" id="no" name="no">Rechazar
+                </p>
+                <p>
+                    <button id="send" name="send">RESERVAR</button>
+                </p>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>Rueda Libre - Alquiler de bicicletas</p>
+        <p>alejogomezr1996@gmail.com</p>
+        <p>2016</p>
+    </footer>
+</body>
+</html>
